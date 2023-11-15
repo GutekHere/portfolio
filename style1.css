@@ -1,0 +1,325 @@
+@font-face{
+    font-family: Mosk;
+    src: url(fonts/Mosk_Typeface/Mosk\ Normal\ 400.ttf);
+}
+@font-face {
+    font-family: Mosk-Bold;
+    src: url(fonts/Mosk_Typeface/Mosk\ Ultra-Bold\ 900.ttf);
+}
+@font-face {
+    font-family: Bestermind;
+    src: url(fonts/Bestermind/BestermindRegular.ttf);
+}
+@font-face {
+    font-family: GiantBoss;
+    src: url(fonts/GiantBoss/Giant\ Boss.ttf);
+}
+@font-face {
+    font-family: Xillian;
+    src: url(fonts/Xillian/Xillian\ Regular.otf);
+}
+@font-face {
+    font-family: Unica;
+    src: url(fonts/Unica/UnicaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Karla;
+    src: url(fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+*{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: #FFFAFA;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 250px;
+    color: #0E0C0A;
+    float: left;
+    box-shadow: 0px 2px 5px gray;
+    margin-bottom: 40px;
+}
+.logo{
+    font-family: Bestermind;
+    font-size: 100px;
+    width: 40%;
+    text-align: right;
+    float: left;
+}
+.logo p{
+    display: grid;
+    align-items: center;
+}
+.navbar{
+    width: 33%;
+    height: 40%;
+    float: left;
+    margin-top: 90px;
+    margin-left: 20%;
+}
+.navbar button{
+    width: 120px;
+    height: 60px;
+    margin: 8px;
+    margin-left: 20px;
+    border: none;
+    color: #0E0C0A;
+    border-top: 2px solid #0E0C0A;;
+    border-bottom: 2px solid #0E0C0A;;
+    font-family: Mosk-Bold;
+    background-color: #FFFAFA;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar button:hover{
+    cursor:pointer;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    transition: .8s;
+    color: gray;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.first-row{
+    width: auto;
+    height: 77.6%;
+    clear: both;
+}
+.p1{
+    height: 96%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p2{
+    height: 96%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p3{
+    height: 96%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p4{
+    height: 96%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.second-row{
+    width: auto;
+    height: 40%;
+    margin: 0;
+    float: left;
+}
+.p5{
+    height: 91.6%;
+    width: auto;
+    float: right;
+    display: block;
+    align-items: center;
+}
+.p6{
+    height: 91.6%;
+    width: auto;
+    float: right;
+    display: block;
+    align-items: center;
+}
+.p7{
+    height: 91.6%;
+    width: auto;
+    float: right;
+    display: block;
+    align-items: center;
+}
+.third-row{
+    width: auto;
+    height: 45%;
+    float: left;
+
+}
+.p8{
+    height: 117.5%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p9{
+    height: 117.5%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p10{
+    height: 117.5%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.p11{
+    height: 117.5%;
+    width: auto;
+    float: left;
+    display: block;
+    align-items: center;
+}
+.fourth-row{
+    width: 100%;
+    height: 45%;
+}
+.container1 img{
+    transform: scale(1);
+    transition: .5s ease-in-out;
+    margin: 10px;
+    box-shadow: 0px 4px 10px black;
+}
+.container1 img:hover{
+    transform: scale(1.02);
+    transition: .5s ease-in-out;
+}
+
+    
+
+/***********************CONTACT*********************/
+.mail{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.mail a{
+    text-decoration: none;
+    color: #0E0C0A;
+    font-family: Xillian;
+    font-size: 80px;
+}
+/****************ABOUT ME**********************/
+.kontener{
+    clear: both;
+    width: 100%;
+    height: 100%;
+}
+.disc{
+    float: left;
+    height: 90%;
+    width: 45%;
+    margin-left: 28%;
+    background-color: #4b4b4b;
+    box-shadow: 0px 10px 20px #4b4b4b;
+    margin-top: 10px;
+    padding: 40px;
+}
+.photo{
+    width: auto;
+    height: auto;
+}
+.photo img{
+    height: 500px;
+    width: auto;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+.tytul{
+    font-family: Unica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    width: auto;
+    height: auto;
+    margin-left: 28%;
+    padding: auto;
+    padding-top: 30px;
+}
+h2{
+    font-family: Karla;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 40px;
+    height: auto;
+    margin-bottom: 3%;
+}
+.city{
+    width: 300px;
+    height: auto;
+    font-family: Mosk;
+    font-weight: 600;
+    font-size: 25px;
+}
+.empty{
+    width: 100%;
+    height: 40px;
+}
+.opis{
+    width: auto;
+    height: auto;
+    font-family: Karla;
+    font-size: 20px;
+    color: black;
+}
+
+/****************ALBUMS***********************/
+.title{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    margin-left: 35%;
+}
+.title p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Xillian;
+    width: 50%;
+    border-bottom: #4b4b4b solid 2px;
+}
+.photo-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.photo-container img{
+    width: 19.2%;
+    height: auto;
+    margin: 8px;
+    box-shadow: 0px 3px 10px black;
+}
+.photo-container img{
+    transform: scale(1);
+    transition: .5s ease-in-out;
+    box-shadow: 0px 4px 10px black;
+}
+.photo-container img:hover{
+    transform: scale(1.02);
+    transition: .5s ease-in-out;
+}
+.gallery-hor{
+    width: 100%;
+    height: auto;
+}
+.gallery-hor img{
+    width: 24.2%;
+    height: auto;
+}
